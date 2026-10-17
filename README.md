@@ -62,7 +62,7 @@ Arduino libraries: OneWire, DallasTemperature, Wire, LiquidCrystal_I2C.
 ## Repository structure
 ```
 ├── arduino/    Arduino sketch (.ino)
-├── python/     Data collection script and regression notebook
+├── python/     Data collection script 
 ├── images/     Circuit diagram, setup photo and plots
 └── docs/       Project presentation (PDF)
 ```
