@@ -77,3 +77,4 @@ Arduino libraries: OneWire, DallasTemperature, Wire, LiquidCrystal_I2C.
 
 ## Authors
 - Khadim Hussain
+- Aisha Khalid
