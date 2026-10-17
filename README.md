@@ -21,7 +21,7 @@ Semester project for PDS, Fall 2025, Quaid-i-Azam University, Islamabad.
 4. **Model:** a 3rd-degree polynomial regression (scikit-learn) trained on
    Trial 5 predicts the time needed to cool to 40 °C.
 
-![Experimental setup](images/setup_photo.png)
+![Experimental setup](images/setup_photo.jpeg)
 
 ## Hardware
 - Arduino Uno
@@ -32,7 +32,7 @@ Semester project for PDS, Fall 2025, Quaid-i-Azam University, Islamabad.
 
 Arduino libraries: OneWire, DallasTemperature, Wire, LiquidCrystal_I2C.
 
-![Circuit setup](images/circuit_diagram.png)
+![Circuit setup](images/circuit_diagram.jpeg)
 
 ## Results
 - Mean squared error: 0.01
@@ -45,7 +45,7 @@ Arduino libraries: OneWire, DallasTemperature, Wire, LiquidCrystal_I2C.
 | 65 °C | 43.55 min |
 | 70 °C | 50.20 min |
 
-![Polynomial fit](images/polynomial_fit.png)
+![Polynomial fit](images/polynomial_fit.jpeg)
 
 ## Limitations
 - Readings can be affected by room conditions and airflow, and only one
@@ -69,7 +69,7 @@ Arduino libraries: OneWire, DallasTemperature, Wire, LiquidCrystal_I2C.
 ```
 
 ## How to run
-1. Wire the circuit as shown in `images/circuit_diagram.png` and upload the
+1. Wire the circuit as shown in `images/circuit_diagram.jpeg` and upload the
    sketch in `arduino/` to the Arduino Uno.
 2. Set the correct serial port in the data collection script, then run it
    to record the trials into a CSV file.
