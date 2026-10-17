@@ -63,7 +63,6 @@ Arduino libraries: OneWire, DallasTemperature, Wire, LiquidCrystal_I2C.
 ```
 ├── arduino/    Arduino sketch (.ino)
 ├── python/     Data collection script and regression notebook
-├── data/       Temperature data for the 5 trials
 ├── images/     Circuit diagram, setup photo and plots
 └── docs/       Project presentation (PDF)
 ```
